@@ -12,9 +12,20 @@ const List = styled.ul`
 		align-items: center;
 		padding: 0;
 		height: 49px;
+		-webkit-transition: 0.2s time;
+		-o-transition: 0.2s time;
+		transition: 0.2s time;	
 
 		&:hover {
 			cursor:pointer;
+		}
+
+		a:active {
+			-moz-transform: translatey(3px); /* Для Firefox */ 
+  		-ms-transform: translatey(3px); /* Для IE */ 
+  		-webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+  		-o-transform:translatey(3px); /* Для Opera */ 
+  		transform: translatey(3px)
 		}
 `
 
