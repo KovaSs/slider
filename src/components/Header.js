@@ -19,14 +19,6 @@ const List = styled.ul`
 		&:hover {
 			cursor:pointer;
 		}
-
-		a:active {
-			-moz-transform: translatey(3px); /* Для Firefox */ 
-  		-ms-transform: translatey(3px); /* Для IE */ 
-  		-webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
-  		-o-transform:translatey(3px); /* Для Opera */ 
-  		transform: translatey(3px)
-		}
 `
 
 class Header extends React.Component {
