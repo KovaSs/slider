@@ -11,15 +11,15 @@ class Slider extends React.Component {
 					this.state = {
 						slides: [
 							{
-								eachSlide: `url(${Slide_1})`
+								eachSlide: `url(./${Slide_1})`
 							},
 							{
-								eachSlide: `url(${Slide_2})`
+								eachSlide: `url(./${Slide_2})`
 							},
 							{
-								eachSlide: `url(${Slide_3})`
+								eachSlide: `url(./${Slide_3})`
 							},{
-								eachSlide: `url(${Slide_4})`
+								eachSlide: `url(./${Slide_4})`
 							}],
 							autoplay: false,
 							active: 0,
